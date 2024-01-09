@@ -1,0 +1,103 @@
+/*Media Queries*/
+
+@media (max-width: 768px) {
+
+	main {
+		background-image: unset;
+	}
+
+	main, .navbar {
+		padding-right: 3.33333rem;
+		padding-left: 3.33333rem;
+	}
+
+	.container {
+		max-width: 720px;
+	}
+
+	.logo-container .contact {
+		display: none;
+	}
+
+	.specialization, .education-and-experience, .projects, .articles {
+		padding-top: 3.33333rem;
+	}
+
+	.specialization-container, .articles-container, .education-and-experience {
+		display: block;
+	}
+
+	.articles > h3, .projects > h3 {
+		font-size: 1.4rem;
+	}
+
+	.specialization .title, .articles, .blog-title {
+		font-size: 1rem;
+	}
+
+	.projects ul li {
+		margin-left: 0;
+		font-size: 18px;
+	}
+
+	.projects ul li a {
+		font-size: 28px;
+		margin-left: 1rem;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar {
+		padding-top: 2.66667rem;
+		padding-bottom: 2.66667rem;
+	}
+
+	main, .navbar {
+		padding-right: 4.16667rem;
+		padding-left: 4.16667rem;
+	}
+
+	.container {
+		max-width: 760px;
+	}
+
+	.specialization-container, .articles-container {
+		grid-template-columns: auto auto;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 1140px;
+	}
+
+	.specialization-container, .articles-container {
+		grid-template-columns: auto auto auto;
+	}
+}
+
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+	#aside-nav {
+	    padding-right: 3.33333rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	#aside-nav {
+	    padding-right: 4.16667rem;
+	}
+}
