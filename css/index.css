@@ -275,11 +275,11 @@ body #aside-nav span {
 	justify-content: space-between;
 	gap: 5em;
 	align-items: center;
+	min-height: 87px;
 }
 
 .logo-container .logo {
-	font-size: 43px;
-	font-weight: 600;
+	width: 26px;
 }
 
 .logo-container .contact {
